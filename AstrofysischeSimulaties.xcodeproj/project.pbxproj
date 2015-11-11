@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A80B85D1BDE8F8100E8A4D8 /* classes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A80B85C1BDE8F8100E8A4D8 /* classes.cpp */; };
 		5A82DFEB1BDA6BD500DB33E0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A82DFEA1BDA6BD500DB33E0 /* main.cpp */; };
+		5A82DFF51BDA7C8800DB33E0 /* functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A82DFF31BDA7C8800DB33E0 /* functions.cpp */; };
+		5A82DFF81BDA8FF100DB33E0 /* integration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A82DFF61BDA8FF100DB33E0 /* integration.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5A80B85C1BDE8F8100E8A4D8 /* classes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = classes.cpp; sourceTree = "<group>"; };
 		5A82DFE71BDA6BD500DB33E0 /* AstrofysischeSimulaties */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AstrofysischeSimulaties; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A82DFEA1BDA6BD500DB33E0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5A82DFF11BDA6BE600DB33E0 /* classes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = classes.h; sourceTree = "<group>"; };
+		5A82DFF31BDA7C8800DB33E0 /* functions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = functions.cpp; sourceTree = "<group>"; };
+		5A82DFF41BDA7C8800DB33E0 /* functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = functions.h; sourceTree = "<group>"; };
+		5A82DFF61BDA8FF100DB33E0 /* integration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = integration.cpp; sourceTree = "<group>"; };
+		5A82DFF71BDA8FF100DB33E0 /* integration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = integration.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				5A82DFEA1BDA6BD500DB33E0 /* main.cpp */,
+				5A82DFF11BDA6BE600DB33E0 /* classes.h */,
+				5A80B85C1BDE8F8100E8A4D8 /* classes.cpp */,
+				5A82DFF31BDA7C8800DB33E0 /* functions.cpp */,
+				5A82DFF41BDA7C8800DB33E0 /* functions.h */,
+				5A82DFF61BDA8FF100DB33E0 /* integration.cpp */,
+				5A82DFF71BDA8FF100DB33E0 /* integration.h */,
 			);
 			path = AstrofysischeSimulaties;
 			sourceTree = "<group>";
@@ -119,6 +134,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A82DFEB1BDA6BD500DB33E0 /* main.cpp in Sources */,
+				5A82DFF81BDA8FF100DB33E0 /* integration.cpp in Sources */,
+				5A80B85D1BDE8F8100E8A4D8 /* classes.cpp in Sources */,
+				5A82DFF51BDA7C8800DB33E0 /* functions.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +250,7 @@
 				5A82DFF01BDA6BD500DB33E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
